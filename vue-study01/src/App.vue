@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <CompCommunicate /> --> 
+    <!-- <CompCommunicate /> -->
     <!-- <SlotsTest></SlotsTest> -->
     <!-- <Recursion></Recursion> -->
-    <!-- <FormSample></FormSample> -->
-    <Tree></Tree>
+     <FormSample></FormSample>
+    <!--<Tree></Tree>-->
   </div>
 </template>
 
