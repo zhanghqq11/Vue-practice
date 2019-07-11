@@ -1,11 +1,12 @@
 <template>
   <div id="app">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <CompCommunicate /> --> 
-     <SlotsTest></SlotsTest>
+    <!-- <CompCommunicate /> -->
+     <!--<SlotsTest></SlotsTest>-->
     <!-- <Recursion></Recursion> -->
-    <!-- <FormSample></FormSample> -->
+     <!--<FormSample></FormSample>-->
     <!--<Tree></Tree>-->
+      <Test></Test>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SlotsTest from "./components/slots";
 import Recursion from "./components/recursion";
 import FormSample from "./components/form";
 import Tree from "./components/tree";
+import Test from "./components/try/inputParent"
 
 export default {
   name: "app",
@@ -25,7 +27,8 @@ export default {
     SlotsTest,
     Recursion,
     FormSample,
-    Tree
+    Tree,
+    Test
   }
 };
 </script>

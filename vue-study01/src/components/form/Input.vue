@@ -11,6 +11,10 @@ export default {
     value: {
       type: String,
       default: ""
+    },
+    value1:{
+      type: String,
+      default: '1'
     }
   },
   methods: {
