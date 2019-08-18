@@ -14,11 +14,11 @@
             }
         },
         methods:{
-            watchthis(){
-                let y=1;
-                console.log(y)
-               console.log(this.$parent)
-            }
+            // watchthis(){
+            //     let y=1;
+            //     console.log(y)
+            //    console.log(this.$parent)
+            // }
         },
         watch:{
             'message':function () {
