@@ -26,12 +26,11 @@ export default {
         }
     },
     mounted(){
-
         this.$on("dispatch",msg=>{
             this.msg = '接收dispatch消息:'+ msg
         })
     }
-    
+
 }
 </script>
 
